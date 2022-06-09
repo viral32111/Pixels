@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixels", "Pixels.csproj", "{E29B4378-B0FE-4743-B39C-DC7AA49729A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixels", "Pixels.csproj", "{81CCB5AD-7C3B-4DF0-AE2D-AA9E18A3180A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E29B4378-B0FE-4743-B39C-DC7AA49729A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E29B4378-B0FE-4743-B39C-DC7AA49729A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E29B4378-B0FE-4743-B39C-DC7AA49729A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E29B4378-B0FE-4743-B39C-DC7AA49729A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CCB5AD-7C3B-4DF0-AE2D-AA9E18A3180A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CCB5AD-7C3B-4DF0-AE2D-AA9E18A3180A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CCB5AD-7C3B-4DF0-AE2D-AA9E18A3180A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CCB5AD-7C3B-4DF0-AE2D-AA9E18A3180A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AE1D09C9-AD08-4943-8F9F-D60706AFE4E9}
+		SolutionGuid = {6EA7201F-7358-4DE7-BBB9-EB10CE8BD2C1}
 	EndGlobalSection
 EndGlobal

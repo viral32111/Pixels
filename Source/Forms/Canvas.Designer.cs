@@ -1,5 +1,5 @@
-﻿namespace Pixels {
-	partial class Window {
+﻿namespace Pixels.Forms {
+	partial class Canvas {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
@@ -25,21 +25,23 @@
 		private void InitializeComponent() {
 			this.SuspendLayout();
 			// 
-			// Window
+			// Canvas
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Black;
 			this.ClientSize = new System.Drawing.Size(1024, 1024);
+			this.ControlBox = false;
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.MaximizeBox = false;
-			this.Name = "Window";
+			this.MinimizeBox = false;
+			this.Name = "Canvas";
 			this.ShowIcon = false;
+			this.ShowInTaskbar = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Pixels";
-			this.Load += new System.EventHandler(this.Window_Load);
-			this.Paint += new System.Windows.Forms.PaintEventHandler(this.Window_Paint);
-			this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Window_KeyPress);
+			this.Text = "Canvas";
+			this.Load += new System.EventHandler(this.OnLoad);
+			this.Paint += new System.Windows.Forms.PaintEventHandler(this.OnPaint);
 			this.ResumeLayout(false);
 
 		}
@@ -47,4 +49,3 @@
 		#endregion
 	}
 }
-
