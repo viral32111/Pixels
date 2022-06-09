@@ -39,7 +39,7 @@
 			this.ShowIcon = false;
 			this.ShowInTaskbar = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Canvas";
+			this.Text = "Pixels";
 			this.Load += new System.EventHandler(this.OnLoad);
 			this.Paint += new System.Windows.Forms.PaintEventHandler(this.OnPaint);
 			this.ResumeLayout(false);
