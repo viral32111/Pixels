@@ -4,7 +4,7 @@ This is a small [.NET Framework](https://docs.microsoft.com/en-us/dotnet/framewo
 
 There are [two color generation methods in the code](Source/Forms/Canvas.cs#L61-L77) that can be switched between to produce different results.
 
-I originally made this to help me understand how to make [my Garry's Mod custom Wiremod GPU render pixels to a digital screen](Examples/Garry's Mod).
+I originally made this to help me understand how to make [my Garry's Mod custom Wiremod GPU render pixels to a digital screen](https://github.com/viral32111/Pixels/tree/main/Examples/Garry's%20Mod).
 
 Check out the [Windows Examples directory](Examples/Windows) for screenshots and a video of what this program can produce.
 
